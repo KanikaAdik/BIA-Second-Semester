@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_Posts_Summary_2021-12-31--2022-01-31.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Page" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Codename" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="URL" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Total Interactions" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Likes" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Comments" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Shares" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Owned Post Views" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Owned Views from Shares" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Owned Total Views" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Percentage Views from Owned Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Views on Shared Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Views While Live" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Video Time" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="3-Min+ Videos" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Loves" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Wows" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Hahas" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Sads" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Angrys" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Cares" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="All Reactions" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="All Interaction Rate" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Photos" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Links" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Statuses" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Facebook Videos" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Other Videos" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Total Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Photo Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Link Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Status Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Owned Video Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Shared Video Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Other Video Posts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Posts Per Day" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Likes" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Growth" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Growth %" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Followers" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Follower Growth" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Follower Growth %" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Interaction Rate Calculated With" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Posts_Summary_2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="198" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Page Name","User Name"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="390" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Type</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-09-22 13:47:44</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Link</Operand>
+              <StartDate>2022-09-22 13:47:44</StartDate>
+              <EndDate>2022-09-22 13:47:44</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Type] = "Link"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_f23c9c415ba09545a2d54a28afdea254~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample_Historical-Posts-2021-12-31--2022-01-31.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Page Name" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="User Name" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Facebook Id" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Category" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Admin Top Country" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Description" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Page Created" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Post Created" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Post Created Date" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Post Created Time" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Type" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Total Interactions" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Likes" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Comments" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Shares" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Love" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Wow" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Haha" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Sad" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Angry" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Care" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Video Share Status" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Is Video Owner?" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Post Views" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Total Views" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Total Views For All Crossposts" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Video Length" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="URL" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Message" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Link" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Final Link" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Image Text" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Link Text" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Description" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Sponsor Id" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Sponsor Name" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Sponsor Category" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+            <Field name="Overperforming Score (weighted  —  Likes 1x Shares 1x Comments 1x Love 1x Wow 1x Haha 1x Sad 1x Angry 1x Care 1x )" size="254" source="File: D:\jujun_googledrive\MIS634_local\21S\fb_data\Sample_Historical-Posts-2021-12-31--2022-01-31.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_ee781c490995524e99aeeef6b5ba56d7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="474" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="User Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Codename" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_URL" selected="True" rename="Right_URL" input="Right_" />
+                <SelectField field="Right_Total Interactions" selected="True" rename="Right_Total Interactions" input="Right_" />
+                <SelectField field="Right_Likes" selected="True" rename="Right_Likes" input="Right_" />
+                <SelectField field="Right_Comments" selected="True" rename="Right_Comments" input="Right_" />
+                <SelectField field="Right_Shares" selected="True" rename="Right_Shares" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="786" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="page_year_2" action="GroupBy" rename="page_year_2" />
+            <SummarizeField field="Likes" action="Sum" rename="Sum_Likes" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Post Created" selected="True" type="Date" size="10" />
+            <SelectField field="Post Created Date" selected="True" type="Date" size="10" />
+            <SelectField field="Likes" selected="True" type="Int32" size="4" />
+            <SelectField field="Comments" selected="True" type="Int32" size="4" />
+            <SelectField field="Shares" selected="True" type="Int32" size="4" />
+            <SelectField field="Love" selected="True" type="Int32" size="4" />
+            <SelectField field="sum_of_like_coment" selected="True" type="Float" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_7b573e7524c30145b3165e27b3e18e33~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&#xA;DateTimeFormat(DateTimeParse([Page Created],&quot;%m/%d/%Y&quot;),&quot;%B-%Y&quot;)" field="page_year_2" size="64" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[page_year_2 = 
+DateTimeFormat(DateTimeParse([Page Created],"%m/%d/%Y"),"%B-%Y")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_d5f491ce2d1e6a4a9460fc0a3eb990c6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="738" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Link Text</Field>
+          <RegExExpression value="" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Link Text</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex />
+          <Match>
+            <Field>Page Name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Page Name" action="GroupBy" rename="Page Name" />
+            <SummarizeField field="sum_of_like_coment" action="Sum" rename="Sum_sum_of_like_coment" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="954" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Sum_sum_of_like_coment" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum_sum_of_like_coment - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1146" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">fb_sample_output.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fb_sample_output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings>
+        <Position x="582" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_4b3aa82a04d92b4386e6c1901ef9f0bc~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="498" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_7bd25bd19767304280d71dfb1e84456e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings>
+        <Position x="438" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_eb1ff250cdefea409194ea270a44bb7d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Likes]+[Comments]&#xA;" field="sum_of_like_coment" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[sum_of_like_coment = [Likes]+[Comments]
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KK\AppData\Local\Temp\Engine_12608_aa50296540e26c489e556ea30e8f79c4_\Engine_12608_ac2ef2f4db4c6940af3c70cc96944b75~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="186" y="222" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 2</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="294" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 1</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="198" y="522" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 1</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="282" y="222" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 3</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="378" y="162" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 4</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="294" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 5</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="618" y="234" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 6</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="810" y="294" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 7</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="954" y="234" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 8</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="198" width="72" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Step 9</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="30" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="28" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="26" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output9" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output9" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output9" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>fb_sample</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="75186c21-c152-42ee-a9a9-8ff479369f02" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="75186c21-c152-42ee-a9a9-8ff479369f02" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
